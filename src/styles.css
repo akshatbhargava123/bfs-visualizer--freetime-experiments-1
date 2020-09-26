@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+.block {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.block:hover {
+  transform: scale(1.2);
+}
